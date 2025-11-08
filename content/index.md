@@ -67,7 +67,8 @@ def copy_files_recursive(source_path, destination_path):
         shutil.rmtree(destination_path)
     os.mkdir("docs")
     recursive_copy(source_path, destination_path)
-
+```
+```
 def recursive_copy(source_path, destination_path):
     ls = os.listdir(source_path)
     for item in ls:
