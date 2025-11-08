@@ -1,9 +1,9 @@
-# Contact the Author
+# Contact the Arash
 
 [< Back Home](/)
 
-Give me a call anytime to chat about Tolkien!
+Give me a call anytime to chat about how much I love you ❤️❤️❤️
 
-`555-555-5555`
+`0991-295-3081`
 
-**"Váya márië."**
+**Daedalus**

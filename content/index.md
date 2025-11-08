@@ -2,51 +2,82 @@
 
 ![ArashMahsa](images/ArashMahsa.jpg)
 
-من با خانوم خانوما دوشنبه 17 دی 1404 ساعت 11 شب آشنا شدم
+من با خانوم خانوما دوشنبه 17 دی 1403 ساعت 11 شب آشنا شدم
 
 داخل یک چت بات 😁
 
 بعدش قبول کرد که بیاد دایرکت و عکسشو بفرسته و به من تو دایرکت گقت
 
-> قصد و مقصودم چیز دیگریست آقاااا
+> "قصد و مقصودم چیز دیگریست آقاااا"
 
 دوست دارم اینجا چند سری از خاطرات خوبمون ولیست درخواست هایی که دستوووور داده انجام بدم رو بزارم تا یه یادبود همیشگی
 برامون بمونه 🙃
 
 
-## Blog posts
+## خاطرات خوووووب
 
-- [Why Glorfindel is More Impressive than Legolas](/blog/glorfindel)
-- [Why Tom Bombadil Was a Mistake](/blog/tom)
-- [The Unparalleled Majesty of "The Lord of the Rings"](/blog/majesty)
+- [آب و آتش 28 دی](/blog/aboatash)
+- [رستوران کنزو 15 فروردین](/blog/kenzo)
+- [اولین دیت خونه و کیک ردولوت](/blog/redvelvet)
+- [تولد آرش](/blog/birthday)
+- [رستوران تالیانا](/blog/taliana)
+- [خانه 1300](/blog/house1300)
 
-## Reasons I like Tolkien
+## کار هایی که قول دادیم انجامش بدیم
 
-- You can spend years studying the legendarium and still not understand its depths
-- It can be enjoyed by children and adults alike
-- Disney _didn't ruin it_ (okay, but Amazon might have)
-- It created an entirely new genre of fantasy
+- باهم موچی درست کنیم .
+- یه باغچه کوچیک یا بزرگ برای خودمون درست کنیم پر از گل و درخت و توش یه کلبه ام درست کنیم.
+- نترسیم از دنبال کردن خواسته و رویاهامون
+- یه شب تا صبح فقط حرف بزنیم کنار هم و نخوابیم .
+- با هم کیک درست کنیم
+- سوار ماشین بشیم بریم سفر
+- بریم کویر شب ستاره ها رو نگاه کنیم
+- بریم کنار ساحل قدم بزنیم
+- کنار هم دراز بکشیم و به آهنگ گوش بدیم
+- چشامون رو ببندیم و با لبای هم بازی کنیم
 
-## My favorite characters (in order)
+## چیزایی که حاکم بزرک دستور دادن که بخرم 😅❤️
 
-1. Gandalf
-2. Bilbo
-3. Sam
-4. Glorfindel
-5. Galadriel
-6. Elrond
-7. Thorin
-8. Sauron
-9. Aragorn
+1. انگشتر برلیان ارزشمند
+2. اسپرسو ساز
+3. پیانو
+4. ادکلن
+5. قهوه کیسه کیسه
+6. فر مخصوص
+7. کفش اورجینال خوشگل
+8. ایرفرایر
+9. باربیکیو
+10. جواهرات عیونی
+11. موتور سیکلت هارلی دیوید سون
+12. گوشی آیفون
+13. یه خونه حیاط دار تو شمال یا بابلسر یا آستارا یا رشت یا انزلی
+14. لباس های برند
+15. ساعت ست
 
-Here's what `elflang` looks like (the perfect coding language):
+
+# CODE
+
+این بخش دیگه مربوظ به خودمه میخوام ببینم این کد رو درست نشون میده؟
 
 ```
-func main(){
-    fmt.Println("Aiya, Ambar!")
-}
+def copy_files_recursive(source_path, destination_path):
+    if os.path.exists(destination_path):
+        shutil.rmtree(destination_path)
+    os.mkdir("docs")
+    recursive_copy(source_path, destination_path)
+```
+```
+def recursive_copy(source_path, destination_path):
+    ls = os.listdir(source_path)
+    for item in ls:
+        item_path = source_path + f"/{item}"
+        if os.path.isfile(item_path):
+            shutil.copy(item_path, destination_path)
+            print("copied:", item)
+        else:
+            os.mkdir(destination_path + f"/{item}")
+            print("copied:", item)
+            recursive_copy(item_path, destination_path + f"/{item}")
 ```
 
 Want to get in touch? [Contact me here](/contact).
-
-This site was generated with a custom-built [static site generator](https://www.boot.dev/courses/build-static-site-generator-python) from the course on [Boot.dev](https://www.boot.dev).
